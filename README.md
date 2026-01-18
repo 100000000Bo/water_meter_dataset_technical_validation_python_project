@@ -1,1 +1,0 @@
-# water_meter_dataset_technical_validation_python_project
