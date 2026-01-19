@@ -1,7 +1,10 @@
 # Water_meter_dataset_technical_validation_python_project
 ## Instructions for Using the Validation Code
 
-This code is provided to validate the effectiveness of the proposed water meter dataset through **segmentation**, **recognition**, and **classification-assisted segmentation** experiments.
+This code is provided to validate the effectiveness of the proposed water meter dataset through **segmentation**, **recognition**, and **classification** experiments.
+The validation code is organized into three independent modules. Each folder contains the complete training and testing scripts for multiple baseline models used in the
+technical validation experiments.
+
 
 * * *
 
@@ -10,6 +13,53 @@ This code is provided to validate the effectiveness of the proposed water meter 
 *   **The dataset used in this study can be downloaded from Dryad: <u>https://doi.org/10.5061/dryad.7d7wm3860</u>.**
 *   File paths in each script should be adjusted according to the local directory structure.
 *   All datasets used in the validation phase have been preprocessed to a unified size and fully labeled. **The data can be directly used for training and validation without any additional preprocessing.**
+
+* * *
+
+### Directory Structure (Validation Code)
+```text
+Validation_Code/
+├── Water_Meter_Classification/
+│   ├── dataframe/
+│   ├── dataset/
+│   ├── model/
+│   ├── CNN-train.py
+│   ├── CNN-test.py
+│   ├── DenseNet-train.py
+│   ├── DenseNet-test.py
+│   ├── ResNet-train.py
+│   ├── ResNet-test.py
+│   ├── VGG16-train.py
+│   ├── VGG16-test.py
+│   ├── fig.py
+│   └── class.png
+│
+├── Water_Meter_Recognition/
+│   ├── dataframe/
+│   ├── seg_model/
+│   ├── read_csv.py
+│   ├── ResNet_train-test.py
+│   ├── class+seg_unet.py
+│   ├── class+seg_pspnet.py
+│   ├── class+seg_deeplabv3+.py
+│   ├── class+seg_segformer.py
+│   └── fig.py
+│
+└── Water_Meter_Segmentation/
+    ├── dataframe/
+    ├── dataset/
+    ├── model/
+    ├── UNet_train.py
+    ├── UNet_test.py
+    ├── PSPNet_train.py
+    ├── PSPNet_test.py
+    ├── DeepLabV3+_train.py
+    ├── DeepLabV3+_test.py
+    ├── SegFormer_train.py
+    ├── SegFormer_test.py
+    ├── fig.py
+    └── seg.png
+```
 
 * * *
 
