@@ -7,6 +7,7 @@ This code is provided to validate the effectiveness of the proposed water meter 
 
 ### Notes
 
+*   **The dataset used in this study can be downloaded from Dryad: <u>https://doi.org/10.5061/dryad.7d7wm3860</u>.**
 *   File paths in each script should be adjusted according to the local directory structure.
 *   We provide data preprocessing code to illustrate the data processing and dataset construction procedures.
 However, all datasets used in this work have already been fully preprocessed and can be directly used **without any additional preprocessing**.
